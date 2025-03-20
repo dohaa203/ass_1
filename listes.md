@@ -201,6 +201,16 @@ Pour tous ces parcours de listes, il est conseillé d'utiliser des noms de varia
 Si cette valeur maximale est présente plusieurs fois dans la liste, on retournera l'indice de sa première occurrence.
 ```
 
+l = [3, 8, 1, 14, 7, 9, 14, 2]
+def posmax(l):
+    m, k = l[0], 0  # Initialisation avec le premier élément
+    for i, e in enumerate(l):
+        if e > m:  # Si on trouve un élément plus grand que le précédent maximum
+            m = e
+            k = i 
+   
+
+
 <div id="pad_4.1" class="pad"></div>
 <script>
     Pythonpad('pad_4.1', 
