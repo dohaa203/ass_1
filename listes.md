@@ -203,9 +203,9 @@ Si cette valeur maximale est présente plusieurs fois dans la liste, on retourne
 
 l = [3, 8, 1, 14, 7, 9, 14, 2]
 def posmax(l):
-    m, k = l[0], 0  # Initialisation avec le premier élément
-    for i, e in enumerate(l):
-        if e > m:  # Si on trouve un élément plus grand que le précédent maximum
+    m, k = l[0], 0  
+    for i, e in enumerate(l)
+        if e > m  
             m = e
             k = i 
    
