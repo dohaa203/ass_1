@@ -525,6 +525,15 @@ def verifier(l):
   return True
 verifier([0, 5, 8, 8, 9])
 
+EXERCICE 2
+def aff(dessin):
+  for ligne in dessin:
+    for col in ligne:
+      if col == 1:
+        print(" *", end= "")
+    else:
+        print("  ", end= "")
+  print()
 
 1. [Argmax](ex4.1)
 2. [Intersection de listes](ex4.2)
